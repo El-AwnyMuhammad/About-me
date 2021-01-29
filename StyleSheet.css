@@ -1,0 +1,95 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+h1{
+  font-size: 45px;
+}
+  .hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("521111.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  
+  .hero-text button:hover {
+    background-color: rgb(133, 133, 133);
+    color: white;
+  }
+  .fa {
+    padding: 15px;
+    font-size: 15px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px 5px;
+    border-radius: 50%;
+  }
+  .fa:hover {
+      background-color:rgb(0, 0, 0) ;
+  }
+  .fa-facebook {
+    background: rgb(34, 34, 34);
+    color: white;
+  }
+  .fa-linkedin {
+      background: rgb(34, 34, 34);
+    color: white;
+  }
+  .fa-instagram {
+    background: rgb(34, 34, 34);
+    color: white;
+  }
+ul {
+  list-style-type: none;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 0;
+  width: max-content;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  color:white;
+  padding: 10px 10px;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+li img{
+  position: relative;
+  width: 60px;
+  background-color:#aaaaaa;border-radius: 40%;filter: invert(100%)
+  
+}
+li img:hover{
+  background-color: rgb(212, 212, 212);
+}
+#myTable,td,th{
+  border: 2px solid;
+  border-collapse: collapse;
+  margin-left: auto; 
+  margin-right: auto;
+  padding: 5px;
+  text-align: center;
+}
+@media screen and (max-height: 500px) {
+  .hero-text{
+    font-size: 10px;
+  }
+  h1{
+    font-size: 30px;
+  }
+}
